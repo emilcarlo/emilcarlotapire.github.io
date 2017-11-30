@@ -1,0 +1,138 @@
+
+/* type selector*/
+
+/*p {
+	background-color: yellow;
+}*/
+
+/*id selector*/
+/*
+#para1 {
+	background-color: red;
+}*/
+
+/*class selector*/
+
+/*.paragraphs {
+	background-color: orange;
+}*/
+
+/*attribute selector*/
+
+/*[target] {
+	color: green;
+}
+
+a[target="_blank"] {
+	color: indigo;
+}*/
+
+/*universal selector*/
+
+/*body * {
+	background-color: green;
+}*/
+
+/* Adjacent Sibling*/
+
+/*h5 + a {
+	background-color: red;
+}
+
+a + br + a,
+a + br + br + a {
+	background-color: green;
+}*/
+
+/*h5 ~ div a {
+	background-color: yellow;
+}*/
+
+/*child selector combinator*/
+
+/*div > a {
+	background-color: blue;
+}*/
+
+/*	div a {
+		background-color: yellow;
+	}*/
+
+/*pseudo-class*/
+
+/*a:link {
+	color: orange;
+	background-color: black;
+}*/
+
+/*a:visited {
+	color: yellow;
+	background-color: green;
+
+}*/
+
+/*a:focus {
+	background-color: black;
+	color: red;
+}
+
+a:hover,
+h3:hover,
+h5:hover {
+	background-color: blue;
+	color: orange
+}
+
+a:active,
+h3:active,
+h5:active {
+	background-color: yellow;
+	color: black;
+}*/
+
+/*first-child*/
+
+/*li:first-child,
+li:last-child {
+	background-color: black;
+	color: yellow;
+}
+
+p:first-child,
+p:last-child {
+	background-color: black;
+	color: yellow;
+}*/
+
+/*even and odd*/
+
+/*li:nth-child(odd),
+p:nth-child(odd) {
+	background-color: black;
+	color: orange;
+}*/
+
+/*h3,
+h5,
+p,
+li,
+a:link {
+	background-color: black;
+	color: white;
+}
+*/
+
+
+p {
+	background-color: black;
+	color: yellow;
+}
+#lastChild {
+	background-color: green;
+	color: blue;	
+}
+
+div > p.thirdPara {
+	background-color: blue;
+	color: red;
+}
