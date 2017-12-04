@@ -6,7 +6,7 @@
 }
 
 body {
-	background-color: lightgrey;
+	background-image: url('https://i.ytimg.com/vi/5-LyRjHlRgQ/maxresdefault.jpg');
 }
 
 .wrapper {
@@ -60,7 +60,7 @@ main.wrapper > p {
  }
 
  .sidebar {
- 	height: 360px;
+ 	height: 312px;
  	background-color: #517293; /* Red */
  	width: 20%;
 	float: left; /*possible value: right, none, left*/
@@ -103,7 +103,30 @@ div.content > p {
 	float: left;
 	margin-right: 25px; 
 	border-radius: 	50%;
-	background-image: url('http://lorempixel.com/60/60/');	
+	background-image: url('https://filioneadbokasiya.files.wordpress.com/2015/09/av4i9jrx6cfxp2vcv5ni.jpeg?w=300&h=300&crop=1');
+	background-size: 70px;	
+}
+
+.avatar2 {
+	width: 60px;
+	height: 60px;
+	background-color: #d639fe;
+	float: left;
+	margin-right: 25px; 
+	border-radius: 	50%;
+	background-image: url('https://i2.wp.com/militaryhistorynow.com/wp-content/uploads/2015/07/Unclesamwantyou.jpg?fit=800%2C565');
+	background-size: 70px;		
+}
+
+.avatar3 {
+	width: 60px;
+	height: 60px;
+	background-color: #d639fe;
+	float: left;
+	margin-right: 25px; 
+	border-radius: 	50%;
+	background-image: url('http://www.information-britain.co.uk/showpic2.php?dir=institutions&placeid=39&width=250');
+	background-size: 70px;		
 }
 
 .username {
