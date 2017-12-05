@@ -8,3 +8,22 @@
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/*
+ *
+ * To clear floats
+ *
+*/
+
+.clear:after {
+	content: "";
+	display: block;
+	clear: both;
+}

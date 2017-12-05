@@ -16,9 +16,22 @@ body {
 
 .wrapper {
 	background-color: #000;
-	height: 200px;
-	width: 80%;
+	height: 350px;
+	width: 474px;
 	position: absolute;
-	margin-top: 25%;
+	margin-top: 18%;
 	opacity: 0.5;
+	z-index: -1;
+}
+
+.logo {
+	margin-top: 10%;
+	float: left;
+	z-index: 1;
+}
+
+.tagline {
+	margin-top: 30%;
+	margin-left: 10px; 
+	float: left;
 }
