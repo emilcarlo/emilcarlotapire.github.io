@@ -9,7 +9,7 @@
 
 .sidebar {
 	height: 100%;
-	background-color: black;
+	background-color: white;
 	width: 20%;
 	position: fixed;
 	float: left;
@@ -17,6 +17,8 @@
 
 .avatar {
 	background-color: grey;
+	background-image: url('https://media.licdn.com/mpr/mpr/shrink_200_200/AAEAAQAAAAAAAAfOAAAAJDg0YTlmMGYxLTE2OWItNDViYi05NTNjLTMyMDAwOTFmYmMwNQ.png');
+	background-size: 100% 100%;
 	margin: 40px auto;	
 	height: 200px;
 	width: 200px;
@@ -60,17 +62,17 @@ span {
 }
 
 .home {
-	background-image: url('https://wallpapercave.com/wp/SGuuz0o.jpg');
+	background-image: url('https://pbs.twimg.com/profile_images/436905359261704193/uksgBTIE_400x400.png');
 	background-repeat: no-repeat;
-	background-size: 200% 100%;
-	background-position: center;
+	/*background-size: 500px 500px;*/
+	background-position: right bottom;
 	/*background-color: #333366;*/
 }
 .about {
-	background-image: url('https://www.walldevil.com/wallpapers/a95/glass.jpg');
+	background-image: url('http://images.all-free-download.com/images/graphiclarge/fido_dido_0_135976.jpg');
 	background-repeat: no-repeat;
-	background-size: 200% 100%;
-	background-position: left;
+	/*background-size: 200% 100%;*/
+	background-position: right bottom;
 	/*background-color: #abc5d6;*/
 }
 .services {
@@ -96,17 +98,17 @@ span {
 
 .homecontent	{
 	border: 5px solid;
-	border-color: white;
+	border-color: black;
 	width: 40%;
 	height: 200px;
 	text-align: center;
 	margin: 70px auto;
 	padding-top: 0px;
-	color: white;
+	color: black;
 }
 
 .hometext {
-	color: white;
+	color: black;
 }
 
 .content {
