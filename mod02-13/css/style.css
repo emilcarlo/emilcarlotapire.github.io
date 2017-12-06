@@ -4,89 +4,168 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	overflow: hidden;
 }
 
-
-
-.naviside {
-	background-color: white;
-	width: 20%;
-	float: left;
+.sidebar {
 	height: 100%;
+	background-color: black;
+	width: 20%;
 	position: fixed;
-	padding-top: 25px;
-	padding-bottom: 25px;
+	float: left;
 }
 
-.avatar	{
+.avatar {
 	background-color: grey;
+	margin: 40px auto;	
 	height: 200px;
-	width: 80%;
-	margin: 0 auto; 
+	width: 200px;
+	margin-bottom: 0;
 }
 
-.main {
+.buttonframe {
 	background-color: skyblue;
-	width: 80%;
-	float: right;
-	padding: 200px;
-}
-
-nav > ul > li > div {
-	text-align: center;
-	font-size: 0.8em;
+	margin: 10px auto	;	
+	height: 50px;
+	width: 200px;
+	text-align: center;	
 	line-height: 50px;
-	width: 80%;
-	margin: auto; 
+}
+
+.buttons {
 	background-color: skyblue;
+	margin: 0 auto	;	
+	height: 50px;
+	width: 200px;
+	text-align: center;	
+	line-height: 50px;
 }
-
-.maincontent {
-	width: 500px;
-	background-color: skyblue;
-	border: 5px solid white;
-	text-align: center;
-	padding: 100px; 
-	margin: auto; 
-	}
-
-.about	{
-	background-color: red;
-	width: 80%;
-	float: right;
-	padding: 200px;
-}
-.services	{
-	background-color: blue;
-	width: 80%;
-	float: right;
-	padding: 200px;
-}
-
-.projects	{
-	background-color: green;
-	width: 80%;
-	float: right;
-	padding: 200px;
-}
-
-.gallery	{
-	background-color: pink;
-	width: 80%;
-	float: right;
-	padding: 200px;
-}
-
-h1 {
-	margin-bottom: 20px;
-}
-
-.buttons	{
-	margin: auto;
-	background-color: yellow;
-	width: 80%;
-}	
 
 a {
-	text-decoration: none; 
+	text-decoration: none;
+}
+
+span {
+	cursor: default;
+}
+
+.home,
+.about,
+.services,
+.projects,
+.gallery {
+	height: 918px;
+	width: 80%;
+	float: right;
+}
+
+.home {
+	background-image: url('https://wallpapercave.com/wp/SGuuz0o.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: center;
+	/*background-color: #333366;*/
+}
+.about {
+	background-image: url('https://www.walldevil.com/wallpapers/a95/glass.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left;
+	/*background-color: #abc5d6;*/
+}
+.services {
+	background-image: url('http://thewallpaper.co/wp-content/uploads/2017/08/colors-colourful-pictures-window-glassbroken-psychedelic-abstract-arthd-wallpaper-shattered-abstract-free-images-crack-desktop-images-pattern-bokeh-768x512.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left;
+	/*background-color: #6699cc;*/
+}
+
+.projects {
+	background-image: url('https://wallpaperhdzone.com/wp-content/uploads/2016/09/broken-glass-wallpaper-HD7.jpg');
+	background-repeat: no-repeat;
+	background-size: 200% 100%;
+	background-position: left;
+	/*background-color: green;*/
+	
+}
+
+.gallery {
+	background-color: pink;
+}
+
+.homecontent	{
+	border: 5px solid;
+	border-color: white;
+	width: 40%;
+	height: 200px;
+	text-align: center;
+	margin: 70px auto;
+	padding-top: 0px;
+	color: white;
+}
+
+.hometext {
+	color: white;
+}
+
+.content {
+	width: 90%;
+	margin: 0 auto;
+	text-align: justify;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td,
+th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 8px;
+}	
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+    border: 1px solid #dddddd;
+}
+
+tr:nth-child(odd) {
+    background-color: #eeeeee;
+    border: 1px solid #eeeeee: 
+}
+
+h1,
+h2	{
+	margin-top: 50px;
+	margin-bottom: 10px;
+}
+
+p {
+	margin-bottom: 10px;
+}
+
+.message {
+	width: 70%;
+	margin: 0 auto;
+}
+
+
+
+
+
+.imagecontent,
+img {
+	height: 150px;
+	width:	300px;
+	margin-bottom: 10px: 
+}
+
+.imagecontent {
+	float: left;
+	margin-right: 30px;
+	margin-bottom: 10px;
 }
