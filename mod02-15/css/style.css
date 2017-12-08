@@ -1,0 +1,222 @@
+/* CSS Reset */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+		text-decoration: none;
+	}
+
+/* Mobile devices */
+
+@media only screen and (max-width: 568px) {
+	body {
+		background-color: red;
+	}
+
+	.navigation {
+		width: 100%;
+		background-color: white;
+		padding-top: 20px;
+		height: 370px;
+	}
+
+	.avatar {
+		height: 100px;
+		width: 100px;
+		margin: 0 auto; 
+		background-color: grey;
+		margin-bottom: 20px;
+		border: 1px solid;  
+	}
+
+	.naviavatar {
+		height: 100px;
+		width: 100px;
+	}
+
+	.buttons {
+		width: 80%;
+		background-color: skyblue;
+		margin: 5px auto;
+		padding: 10px;
+		text-align: center;
+	}
+
+	.home {
+		width: 100%;
+		background-color: skyblue;
+		padding-top: 20px;
+		height: 500px;
+	}
+
+	.homecontent {
+		width: 50%;
+		border: 5px solid white;
+		height: 250px;
+		margin: 20% auto;
+		text-align: center;
+	}
+
+	.homecontent > h1 {
+		margin-top: 65px;
+	}
+
+	.homecontent > p {
+		margin-top: 15px;
+		margin-left: 15px;
+		margin-right: 15px;
+	}
+	.about {
+		width: 100%;
+		background-color: maroon;
+		padding-top: 20px;
+		height: 100%;
+	}
+
+	.aboutcontent {
+		/*border: 1px solid;*/
+		margin: 10px 20px;
+		margin-bottom: 30px;
+		text-align: justify;  
+	}
+
+	.aboutcontent > p {
+		margin-bottom: 10px;
+	}
+
+	.services {
+		width: 100%;
+		background-color: blue;
+		padding-top: 20px;
+		height: 100%;
+	}
+
+	.servicescontent > h2 {
+		margin-left: 10px;
+	}
+
+	.servicescontent > .service {
+		border: 1px solid;
+		margin: 10px;  
+	}
+
+	.serviceavatar {
+		height: 75px;
+		width: 75px;
+		border: 1px solid; 
+		margin: 10px;
+		float: left;
+	}
+
+	.svcavatar {
+		height: 75px;
+		width: 75px;
+	}
+
+	.servicedesc {
+		padding: 10px;
+		text-align: justify;
+	}
+
+	.projects {
+		width: 100%;
+		background-color: pink;
+		padding-top: 20px;
+		height: 100%;
+		padding-bottom: 20px; 
+		padding: 20px;
+	}
+
+	.projectscontent {
+		text-align: justify;
+	}
+
+	.gallery {
+		width: 100%;
+		background-color: grey;
+		padding-top: 20px;
+		height: 100%;
+	}
+
+	.gallerycontent {
+		height: 100%;
+		width: 100%;
+		padding: 20px;
+	}
+
+	.items	{
+		background-color: lightgrey;
+		height: 100%;
+		padding: 20px;
+		text-align: justify;
+		border: 1px solid;
+		margin: 10px;  
+	}
+
+	.photos {
+		height: 100px;
+		width: 100px;
+		margin: 0 auto;
+	}
+}
+
+/* Tablet devices */
+
+@media only screen and (min-width: 569px) and (max-width: 968px) {
+	body {
+		background-color: yellow;
+	}
+
+	.navigation	{
+		width: 20%;
+		height: 100%;
+		float: left;
+		background-color: white;
+		position: fixed;
+	}
+
+	.navicontent {
+		width: 100%
+		height:	100%;
+	}
+
+	.avatar {
+		width: 150px;
+		height: 150px;
+		margin: 0 auto;
+		margin-top: 15px;
+		}
+
+	.buttons {
+		width: 150px;
+		height: 30px;
+		background-color: skyblue;
+		margin: 5px auto; 
+		line-height: 30px;
+		text-align: center;
+		}
+
+	.naviavatar {
+		width: 150px;
+		height: 150px;
+	}
+	main {
+		width: 80%;
+		float: right;
+	}
+
+}
+
+/* Desktop devices */
+
+@media only screen and (min-width: 969px) {
+	body {
+		background-color: blue;
+	}
+
+
+}
