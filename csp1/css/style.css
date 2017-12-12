@@ -11,68 +11,185 @@ body, html {
     margin: 0;
 }
 
-.wrapper {
+.main-wrapper {
 	position: relative;
 }
 
 .image {
     position: relative;
-    height: 25%;
+    height: 70%;
     padding: 2%;
 }
 
 .brand-logo {
 	height: 100%;
 }
-
-h1, h3 {
+ 
+.main-ad,
+.main-button {
 	font-family: 'Quicksand', sans-serif;
+	color: white;	
 }
 
-.button	{
+.main-ad {
+	text-align: center;
+
+}
+
+.main-button	{
 	height: 35px;
 	width: 120px;
-	border: 3px solid black;
+	border: 3px solid white;
 	text-align: center; 
 	margin-left: 5px;
+	margin: 0 auto;
 }
+
+
+/*home css*/
+
+.navi {
+	height: 10%;
+	background-color: grey;
+}
+
+.panel {
+	margin: 10px; 
+}
+
+.fitcple, .diet, .fitcom, .time {
+	width: 100%;
+}
+
+.slim, .tone {
+	width: 100%;
+}
+
+.service1, .imgservice1, .service2, .imgservice2,
+.service3, .imgservice3 {
+	text-align: justify;
+	padding: 10px; 
+}
+
+.b1 {
+	width: 100%;
+}
+
+.panel-body > p	{
+	text-align: justify;
+}
+
+
+.contact	{
+	display: inline-block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Mobile Devices*/
 
-@media only screen and (max-width: 400px) {
-	h1	{
-		margin-left: 5px;
-	}
+@media only screen and (max-width: 500px) {
+
 }
 
 /* Tablet devices */
 
-@media only screen	and (min-width: 401px) and (max-width: 960px) {
-	h1	{
-		margin-left: 15px;
-	}
+@media only screen	and (min-width: 501px) and (max-width: 999px) {
 
+.who, .what, .why, .when	{
+	float: left;
+	width: 46%; 
 }
 
-/* Tablet devices 2 */
-
-@media only screen and (min-width: 961px) and (max-width: 1279px){
-
-	h1	{
-		margin-left: 15px;
-		font-size: 4em;
-	}
 
 }
-
 
 /* Desktop devices */
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1000px) {
 
-	h1	{
-		margin-left: 100px;
-		font-size: 8em;
-	}
+	.who, .what, .why, .when	{
+	float: left;
+	width: 23%; 
+}
+
+.service1, .service2, .service3 {
+	width: 49%;
+	float: left;
+}
+
+.imgservice1, .imgservice2, .imgservice3 {
+	width: 49%;
+	float: left;
+}
+
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.gal {
+	
+	
+	-webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+	  
+	
+	}	
+	.gal img{ width: 100%; padding: 7px 0;}
+@media (max-width: 500px) {
+		
+		.gal {
+	
+	
+	-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	  
+	
+	}
+		
+	}
