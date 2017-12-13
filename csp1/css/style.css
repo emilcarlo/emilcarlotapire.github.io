@@ -11,8 +11,23 @@ body, html {
     margin: 0;
 }
 
+.wrapper, .main-wrapper    {
+      content: "";
+      /* The image used */
+      background-image: url('../images/abs.jpg');
+      /* Full height */
+      height: 50%; 
+      /* Center and scale the image nicely */
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+}
+
+/* LANDING PAGE CSS*/
+
 .main-wrapper {
 	position: relative;
+	height: 100%;
 }
 
 .image {
@@ -21,19 +36,11 @@ body, html {
     padding: 2%;
 }
 
-.brand-logo {
-	height: 100%;
-}
- 
 .main-ad,
 .main-button {
 	font-family: 'Quicksand', sans-serif;
-	color: white;	
-}
-
-.main-ad {
-	text-align: center;
-
+	color: white;
+	text-align: center;	
 }
 
 .main-button	{
@@ -45,151 +52,158 @@ body, html {
 	margin: 0 auto;
 }
 
-
-/*home css*/
-
-.navi {
-	height: 10%;
-	background-color: grey;
+a:link, a:visited {
+	text-decoration: none;
 }
+
+/*HOME PAGE CSS*/
 
 .panel {
 	margin: 10px; 
 }
 
-.fitcple, .diet, .fitcom, .time {
+.fitcple,
+.diet,
+.fitcom,
+.time,
+.slim,
+.tone,
+.b1  {
 	width: 100%;
 }
 
-.slim, .tone {
-	width: 100%;
-}
-
-.service1, .imgservice1, .service2, .imgservice2,
-.service3, .imgservice3 {
+.service1,
+.imgservice1,
+.service2,
+.imgservice2,
+.service3,
+.imgservice3,
+.contacts,
+.container {
 	text-align: justify;
 	padding: 10px; 
-}
-
-.b1 {
-	width: 100%;
 }
 
 .panel-body > p	{
 	text-align: justify;
 }
 
-
-.contact	{
-	display: inline-block;
+.navbar {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
 }
 
+.socmed {
+	position: fixed;
+	right: 1%;
+	padding: 5px;
+	color: white;
+	text-decoration: none;
+}
 
+.contacts {
+	padding: 3%;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.socmedcontainer {
+	margin: 0px; 
+	border-radius: 50%;
+	background-color: #231c1e;
+	margin-bottom: 10px;
+	text-align: center;
+	width: 40px;
+	height: 40px;
+}
 
 /* Mobile Devices*/
 
 @media only screen and (max-width: 500px) {
+	.socmed {	
+		font-size: 2em;
+		bottom: 14%;
+	}
 
-}
+							}
 
 /* Tablet devices */
 
-@media only screen	and (min-width: 501px) and (max-width: 999px) {
+@media only screen and (min-width: 501px) and (max-width: 999px) {
 
-.who, .what, .why, .when	{
-	float: left;
-	width: 46%; 
-}
+	.who, 
+	.what, 
+	.why, 
+	.when	{
+		float: left;
+		width: 46%; 
+	}
 
+	.socmed {
+		font-size: 2em;
+		bottom: 40%;
+	}
 
 }
 
 /* Desktop devices */
 
 @media only screen and (min-width: 1000px) {
+	.who,
+	.what,
+	.why,
+	.when	{
+		float: left;
+		width: 23%; 
+	}
 
-	.who, .what, .why, .when	{
-	float: left;
-	width: 23%; 
+	.service1,
+	.service2,
+	.service3,
+	.imgservice1,
+	.imgservice2,
+	.imgservice3 {
+		width: 49%;
+		float: left;
+	}
+
+	.contacts {
+		width: 50%;
+		float: left;
+		margin: 0 auto; 		
+	}
+
+	.socmed {
+		font-size: 3em;
+		bottom: 40%;
+	}
+
+	.socmedcontainer {
+		width: 60px;
+		height: 60px;
+
+	}
 }
-
-.service1, .service2, .service3 {
-	width: 49%;
-	float: left;
-}
-
-.imgservice1, .imgservice2, .imgservice3 {
-	width: 49%;
-	float: left;
-}
-
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .gal {
 	
-	
 	-webkit-column-count: 3; /* Chrome, Safari, Opera */
-    -moz-column-count: 3; /* Firefox */
-    column-count: 3;
+   	-moz-column-count: 3; /* Firefox */
+   	column-count: 3;
 	  
-	
 	}	
-	.gal img{ width: 100%; padding: 7px 0;}
+	
+.gal img{ width: 100%; padding: 7px 0;}
 @media (max-width: 500px) {
+	.gal {
 		
-		.gal {
-	
-	
 	-webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-	  
-	
-	}
+    	-moz-column-count: 1; /* Firefox */
+	column-count: 1;
 		
-	}
+		}
+		
+}
+
+
+

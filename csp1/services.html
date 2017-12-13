@@ -1,161 +1,164 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
-  <title>Capstone Project 1 - Business Website</title>
-  <!-- Imports Bootstrtap CSS -->
-  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+      <head>
+            <meta charset="utf-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+            <title>Capstone Project 1 - Business Website</title>
+            <!-- Imports Bootstrtap CSS -->
+            <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+            <!-- Imports custom sylesheet -->
+            <link rel="stylesheet" type="text/css" href="css/style.css">
+            <!-- Imports custom fonts -->
+            <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+      </head>
 
-  <!-- Imports custom sylesheet -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
+      <body>
+            <div class="wrapper">
+                  <nav class="navbar navbar-inverse" role="navigation">
+                        <div class="container-fluid">
+                              <!-- Brand and toggle get grouped for better mobile display -->
+                              <div class="navbar-header">
+                                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                          <span class="sr-only">Toggle navigation</span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                          <span class="icon-bar"></span>
+                                    </button>
+                                    <a class="navbar-brand" href="#">Body Recomposition</a>
+                              </div> <!-- /.navbar-header -->
 
-  <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+                              <!-- Collect the nav links, forms, and other content for toggling -->
+                              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                    <ul class="nav navbar-nav">
+                                          <li>
+                                                <a href="home.html">Home</a>
+                                          </li>
+                                          <li class="active">
+                                                <a href="services.html">Services</a>
+                                          </li>
+                                          <li>
+                                                <a href="results.html">Results</a>
+                                          </li>
+                                          <li>
+                                                <a href="contacts.html">Contact Us</a>
+                                          </li>
+                                    </ul>
+                              </div><!-- /.navbar-collapse -->
+                        </div><!-- /.container-fluid -->
+                  </nav>
+            </div>
 
-  <style>
+            <div class="container">
+                  <h2>Service we provide</h2>
+                  <p>Choose your desired results below.</p>
 
-	.wrapper {
+                  <div>
+                        <button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc1">Slim down, tone up!</button>
+                        <div id="svc1" class="collapse in">
+                              <div class="service1">
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <p>
+                                          Disclaimer: No copyright infringment is intended. This is for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.
+                                    </p>
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                              </div> <!-- /.service1 -->
+                              <div class="imgservice1">
+                                    <img class="slim" src="images/slim.jpg">
+                              </div> <!-- /.imgservice1 -->
+                        </div> <!-- /.svc1 -->
+                  </div>
 
-	content: "";
-    /* The image used */
-    background-image: url("images/abs.jpg");
+                  <div>
+                        <button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc2">Fat down, musc up!</button>
+                        <div id="svc2" class="collapse">
+                              <div class="service2">
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                              </div> <!-- /.service2 -->
+                              <div class="imgservice2">
+                                    <img class="tone" src="images/tone.jpg">
+                              </div> <!-- /.imgservice2 -->
+                        </div> <!-- /.svc2 -->
+                  </div>
 
-    /* Full height */
-    height: 50%; 
+                  <div>
+                        <button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc3">Muscle up, beef up!</button>
+                        <div id="svc3" class="collapse">
+                              <div class="service3">
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                                    <p>
+                                          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                                          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                                          quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                                          consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+                                          cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+                                          proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                                    </p>
+                              </div> <!-- /.service3 -->
+                              <div class="imgservice3">
+                                    <img class="tone" src="images/rip.jpg">
+                              </div> <!-- /.imgservice3 -->
+                        </div> <!-- /.svc3 -->
+                  </div>
 
-    /* Center and scale the image nicely */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
+                  <div class="socmed">
+                        <div class="socmedcontainer">
+                              <i class="fa fa-facebook" aria-hidden="true"></i><br>
+                        </div>
+                        <div class="socmedcontainer">
+                              <i class="fa fa-twitter" aria-hidden="true"></i><br>
+                        </div>
+                        <div class="socmedcontainer">
+                              <i class="fa fa-instagram" aria-hidden="true"></i><br>
+                        </div>
+                        <div class="socmedcontainer">
+                              <i class="fa fa-youtube" aria-hidden="true"></i>
+                        </div>
+                  </div> <!-- /.back -->
+            </div> <!-- /.container -->
 
-</style>
-</head>
+            <!-- Imports jquery -->
+            <script src="js/jquery-3.2.1.min.js"></script>
+            <!-- Imports Bootstrap Javascript -->
+            <script src="bootstrap/js/bootstrap.min.js"></script>
+            <!-- Imports Font Awesome icons -->
+            <script src="https://use.fontawesome.com/3fa2ea47c5.js"></script>
 
-<body>
-	<div class="wrapper">
-<nav class="navbar navbar-inverse" role="navigation">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">The future tense of Fat</a>
-    </div>
-
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="home.html">Home</a></li>
-        <li class="active"><a href="services.html">Services</a></li>
-        <li><a href="results.html">Results</a></li>
-        <li><a href="contacts.html">Contact Us</a></li>
-      </ul>
-        
-        </li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-</nav>
-</div>
-
-
-<div class="container">
-  <h2>Service we provide</h2>
-  <p>Choose your desired results below.</p>
-  
-  <div>
-  	<button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc1">Slim down, tone up!</button>
-  <div id="svc1" class="collapse in">
-  	<div class="service1">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Disclaimer: No copyright infringment is intended. This is for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="imgservice1">
-    	<img class="slim" src="images/slim.jpg">
-    </div>
-  </div>
-  </div>
-
-  <div>
-    <button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc2">Fat down, musc up!</button>
-  <div id="svc2" class="collapse">
-  	<div class="service2">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </div>
-    <div class="imgservice2">
-    	<img class="tone" src="images/tone.jpg">
-    </div>
-  </div>
-  </div>
-
-   <div>
-    <button type="button" class="btn btn-info b1" data-toggle="collapse" data-target="#svc3">Muscle up, beef up!</button>
-  <div id="svc3" class="collapse">
-  	<div class="service3">
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-    </div>
-    <div class="imgservice3">
-    	<img class="tone" src="images/rip.jpg">
-    </div>
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-  <!-- Imports jquery -->
-  <script src="js/jquery-3.2.1.min.js"></script>
-  
-  <!-- Imports Bootstrap Javascript -->
-  <script src="bootstrap/js/bootstrap.min.js"></script>
-
-</body>
+      </body>
 </html>
