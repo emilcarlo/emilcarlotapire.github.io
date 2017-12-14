@@ -44,7 +44,7 @@ div.main-wrapper {
 
 .main-button	{
 	height: 35px;
-	width: 120px;
+	width: 150px;
 	border: 3px solid white;
 	text-align: center; 
 	margin-left: 5px;
@@ -185,10 +185,6 @@ footer {
 		min-height: 50%;
 		padding: 10px;
 	}
-
-
-
-
 
 }
 
