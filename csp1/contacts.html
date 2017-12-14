@@ -11,10 +11,11 @@
             <link rel="stylesheet" type="text/css" href="css/style.css">
             <!-- Imports custom fonts -->
             <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+            <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
       </head>
 
       <body>
-            <div class="wrapper">
+            <div class="header">
                   <nav class="navbar navbar-inverse" role="navigation">
                         <div class="container-fluid">
                               <!-- Brand and toggle get grouped for better mobile display -->
@@ -47,8 +48,8 @@
                               </div><!-- /.navbar-collapse -->
                         </div><!-- /.container-fluid -->
                   </nav>
-            </div> <!-- /.wrapper -->
-
+            </div> <!-- /.header -->
+            <div class="clear">
             <div class="contacts">
                   <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
@@ -92,7 +93,13 @@
                         </form>
                   </div> <!-- /.well -->
             </div> <!-- /.contacts -->
-
+            </div>
+            <footer class="clear">
+                  <div>&copy; 2017 Body Recompostion</div>
+                  <div class="w3-container">
+                  <p class="w3-tooltip">Disclaimer <span style="position:absolute;left:0;bottom:18px" class="w3-text w3-tag">No copyright infringment is intended. This is for educational purposes and not for profit. Some asset/s used are not owned by the developer/s unless otherwise stated; the credit goes to the owner.</span></p>
+                  </div>
+            </footer> 
 
             <div class="socmed">
                   <div class="socmedcontainer">
@@ -107,10 +114,13 @@
                   <div class="socmedcontainer">
                         <i class="fa fa-youtube" aria-hidden="true"></i>
                   </div>
-            </div> <!-- /.back -->
+            </div> <!-- /.socmed -->
+            
 
             <!-- Imports jquery -->
             <script src="js/jquery-3.2.1.min.js"></script>
+            <!-- Imports javascript -->
+            <script src="js/stickyFooter.js"></script>
             <!-- Imports Bootstrap Javascript -->
             <script src="bootstrap/js/bootstrap.min.js"></script>
             <!-- Imports Font Awesome icons -->
